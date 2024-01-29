@@ -1,0 +1,129 @@
+body{
+    background-image: url("https://img.freepik.com/free-vector/glowing-shiny-musical-notes-background-design_1017-32856.jpg?w=1060&t=st=1704873882~exp=1704874482~hmac=de1c69a838df6040e853f4d8a7b8e01d3d147115e3667aabbfbd932639c2faee");
+    background-size: cover;
+}
+.player{
+    background: rgb(37, 37, 37);
+    height: 521px;
+    width: 302px;
+    box-shadow: 9px 6px 76px 9px rgb(196, 155, 59);
+    border-radius: 40px;
+    margin-left: 50%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* color: rgb(80, 151, 14); */
+    color:greenyellow;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 29px;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: rgba(172, 255, 47, 0.747);
+}
+
+.image{
+    height: 170px;
+    width: 170px;
+    margin: auto;
+    margin-top: 41px;
+    
+}
+
+#mainimg{
+    height: 100%;
+    width: 100%;
+    box-shadow: 1px 2px 10px 4px dimgrey;
+    border-radius: 104px;
+}
+
+.buttons{
+    height: 100px; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 21px;
+    color: green;
+    margin-top: 13px;
+}
+.fa-2x {
+    font-size: 1.5em;
+}
+.circle{
+    background: rgb(47, 248, 255);
+    height: 54px;
+    width: 54px;
+    margin: auto;
+    margin-top: -77px;
+    border-radius: 68px;
+}
+
+i{
+    cursor: pointer;
+}
+#prev{
+    color: rgb(205, 50, 50);
+}
+#pause{
+    color: rgb(255, 2, 2);
+}
+
+#next{
+    color: rgb(205, 50, 50);
+}
+
+.p_con{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    color:rgb(67, 249, 255) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p_div{
+    width: 60%;
+    height: 3px;
+    background: dimgray;
+    position: relative;
+    /* transition: all 1s linear; */
+    cursor: pointer;
+    /* appearance: none; */
+}
+.p_bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: rgb(47, 165, 255);
+}
+
+#st_time{
+    position: relative;
+    left: -107px;
+    top: 7px;   
+}
+#end_time{
+    position: relative; 
+    right: -108px;
+    top: -12px
+}
+
+.footer{
+    background-color: rgb(68, 110, 111);
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 40%;
+    color: white;
+}
+.footer p{
+    color:bisque;
+}
+
